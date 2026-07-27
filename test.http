@@ -28,7 +28,7 @@ Content-Type: application/json
 # Order a Book
 #
 POST http://localhost:4004/odata/v4/catalog/Orders
-Content-Type: application/json;IEEE754Compatible=true
+Content-Type: application/json;IEEE754Compatible=true 
 
 {"book_ID": 201, "amount": 5}
 
